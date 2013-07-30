@@ -1,0 +1,35 @@
+### Module positions - created on Thu 27 Jun 2013 11:40:56 AM CEST ###
+### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       1U               SM0805              3.4922    -3.0138      90.0    Front
+C2       100n             SM0805              2.8500    -2.3000       0.0    Front
+C3       47uF 4V          SM0805              2.3632    -2.5099      90.0    Front
+C4       100n             SM0805              2.2304    -2.3366     270.0    Front
+C6       1uF              SM0805              3.3000    -2.4000     270.0    Front
+C7       1.5p             SM0805              3.0650    -3.6100       0.0    Front
+C8       1.5p             SM0805              2.7850    -3.6100     180.0    Front
+C11      100n             SM0805              3.1502    -2.7931      90.0    Front
+C12      1u               SM0805              3.2502    -2.7931      90.0    Front
+C121     27P              SM0805              2.4921    -2.7579       0.0    Front
+C131     27P              SM0805              2.4756    -3.2028     180.0    Front
+C141     100n             SM0805              3.5354    -3.3346      90.0    Front
+C151     100n             SM0805              3.3465    -3.4252      90.0    Front
+C161     100n             SM0805              2.4803    -3.3858      90.0    Front
+C271     100n             SM0805              3.6368    -3.1722     270.0    Front
+D1       L-C170GCT        SM0805              3.6516    -2.2441     270.0    Front
+D2       L-C170GCT        SM0805              3.5433    -2.2441     270.0    Front
+D3       L-C170GCT        SM0805              3.4350    -2.2441     270.0    Front
+Q1       MOS_N            SOT23GDS            2.8500    -2.4500      90.0    Front
+Q2       MOS_N            SOT23GDS            2.3908    -2.3356      90.0    Front
+Q4       MOS_N            SOT23GDS            3.4893    -2.8041       0.0    Front
+R1       1M               SM0805              3.6437    -2.8031     270.0    Front
+R2       200              SM0805              3.6516    -2.4016     270.0    Front
+R3       200              SM0805              3.5433    -2.4016     270.0    Front
+R4       200              SM0805              3.4350    -2.4016     270.0    Front
+R9       2K2              SM0805              2.2530    -2.5099     270.0    Front
+R231     56K              SM0805              3.3268    -3.1693      90.0    Front
+R261     47K              SM0805              2.8346    -2.8740      90.0    Front
+l1       BLM15HG102SN1D   SM0805              3.6368    -2.9852      90.0    Front
+## End

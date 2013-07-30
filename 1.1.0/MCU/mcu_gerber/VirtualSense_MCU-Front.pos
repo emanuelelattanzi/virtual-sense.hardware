@@ -1,0 +1,30 @@
+### Module positions - created on Thu 27 Jun 2013 11:45:13 AM CEST ###
+### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       100n             SM0805              2.3130    -3.0846     270.0    Front
+C2       100n             SM0805              3.0551    -3.5984       0.0    Front
+C3       100n             SM0805              3.3031    -2.9587     270.0    Front
+C4       100n             SM0805              2.8780    -2.5059       0.0    Front
+C5       10u              SM0805              2.8917    -3.6024       0.0    Front
+C6       0,47uF           SM0805              2.4528    -2.4055      90.0    Front
+C7       100n             SM0805              3.4646    -3.1496     180.0    Front
+C8       18p              SM0805              3.4005    -2.4282       0.0    Front
+C9       18p              SM0805              3.1840    -2.4282     180.0    Front
+C10      100n             SM0805              2.7933    -2.3465     270.0    Front
+C11      100n             SM0805              3.5310    -3.5445     180.0    Front
+FB1      10n              SM0805              2.3799    -3.5768     180.0    Front
+FB2      10n              SM0805              2.3799    -3.4764     180.0    Front
+JP2      BREAKER          SM0603              2.5374    -3.5768       0.0    Front
+JP3      BREAKER          SM0603              2.5354    -3.4783       0.0    Front
+R1       47K              SM0805              2.3031    -3.2677      90.0    Front
+R2       47K              SM0805              3.3632    -2.6358      90.0    Front
+R7       10K              SM0805              3.4646    -2.6378      90.0    Front
+R8       10K              SM0805              3.5827    -2.6378      90.0    Front
+R9       47K              SM0805              2.8917    -2.3445     270.0    Front
+U1       MSP430F5435A     TQFP_80big          2.6713    -3.2067       0.0    Front
+U2       24AA1025         SOIC8               3.5433    -2.9528     270.0    Front
+U3       PCF2123          TSSOP_14            2.6181    -2.4016       0.0    Front
+U4       24AA025E48       SO8E                3.5276    -3.3543     270.0    Front
+## End

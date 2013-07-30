@@ -1,0 +1,19 @@
+### Module positions - created on Thu 27 Jun 2013 11:48:15 AM CEST ###
+### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       100nF            SM0805              1.5433    -3.6469     180.0    Front
+C2       4,7uF            SM0805              1.5531    -3.8831     180.0    Front
+C3       100nF            SM0805              1.5433    -3.5189     180.0    Front
+C4       100nF            SM0805              1.5531    -4.0209     180.0    Front
+D1       KPT-1608 EC      SM0805              2.4882    -3.6075     180.0    Front
+D2       KPT-1608 YC      SM0805              2.4882    -3.4992     180.0    Front
+J1       USB_3            MICRO_USB_TYPE_B    1.3600    -2.9070     180.0    Front
+R1       330              SM0805              2.3012    -3.6075       0.0    Front
+R2       330              SM0805              2.3012    -3.4992       0.0    Front
+R3       10K              SM0805              1.5531    -4.1783     180.0    Front
+R4       10K              SM0805              1.5531    -4.2965     180.0    Front
+R5       0                SM0805              1.5909    -3.3421     180.0    Front
+U1       FT232R           SSOP28big           1.8976    -3.5780       0.0    Front
+## End
