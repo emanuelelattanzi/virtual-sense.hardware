@@ -31,3 +31,4 @@ TODO:
 
 - Per comodità inserire in un unico componente le etichette dei pin delle porte
 - Provare a sbrogliare con le nuove porte doppie per vedere se i collegamenti tra porte doppie vengono genereati
+
