@@ -1,0 +1,18 @@
+### Module positions - created on Mon 20 May 2013 06:08:02 PM CEST ###
+### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C13      1.5n             SM0805              2.5500    -2.3500     180.0    Front
+C14      1.5n             SM0805              3.3500    -2.3500     180.0    Front
+C15      1.5n             SM0805              3.3500    -3.1500     180.0    Front
+C16      1.5n             SM0805              2.5500    -3.1500     180.0    Front
+C21      100n             SM0805              2.6500    -3.3000      90.0    Front
+C22      100n             SM0805              2.9500    -3.2350     270.0    Front
+Q3       MOSFET_N         SOT23GDS            2.9600    -2.9400       0.0    Front
+R5       9M               SM0805              2.2300    -3.6000      90.0    Front
+R6       2.2              SM0805              3.6000    -3.4000     270.0    Front
+R10      1M               SM0805              2.8000    -3.6750     270.0    Front
+R11      1M               SM0805              2.9500    -3.6750     270.0    Front
+R12      1M               SM0805              3.1000    -3.6750     270.0    Front
+## End

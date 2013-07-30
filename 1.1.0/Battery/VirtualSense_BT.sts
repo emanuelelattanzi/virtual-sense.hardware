@@ -1,0 +1,1157 @@
+
+(PCB VirtualSenseProg
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2012-01-19 BZR 3256)-stable")
+    (generated_by_freeroute)
+  )
+  (resolution mil 10)
+  (structure
+    (boundary
+      (rect pcb 1800.0 -4100.0 4100.0 -1800.0)
+    )
+    (boundary
+      (polygon signal 0
+        1900.0 -4000.0
+        4000.0 -4000.0
+        4000.0 -1900.0
+        1900.0 -1900.0
+      )
+    )
+    (snap_angle 
+      fortyfive_degree
+    )
+    (via "Via[0-15]_28:16_mil" "Via[0-15]_28:0_mil")
+    (control
+      (via_at_smd off)
+    )
+    (rule
+      (width 8.0)
+      (clear 8.2)
+      (clear 4.0 (type smd_to_turn_gap))
+      (clear 2.0 (type smd_smd))
+    )
+    (layer Front
+      (type signal)
+    )
+    (layer Inner15
+      (type signal)
+    )
+    (layer Inner14
+      (type signal)
+    )
+    (layer Inner13
+      (type signal)
+    )
+    (layer Inner12
+      (type signal)
+    )
+    (layer Inner11
+      (type signal)
+    )
+    (layer Inner10
+      (type signal)
+    )
+    (layer Inner9
+      (type signal)
+    )
+    (layer Inner8
+      (type signal)
+    )
+    (layer Inner7
+      (type signal)
+    )
+    (layer Inner6
+      (type signal)
+    )
+    (layer Inner5
+      (type signal)
+    )
+    (layer Inner4
+      (type signal)
+    )
+    (layer Inner3
+      (type signal)
+    )
+    (layer Inner2
+      (type signal)
+    )
+    (layer Back
+      (type signal)
+    )
+    (autoroute_settings
+      (fanout off)
+      (autoroute on)
+      (postroute on)
+      (vias on)
+      (via_costs 50)
+      (plane_via_costs 5)
+      (start_ripup_costs 100)
+      (start_pass_no 39)
+      (layer_rule Front
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 4.2)
+        (against_preferred_direction_trace_costs 5.2)
+      )
+      (layer_rule Inner15
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner14
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner13
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner12
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner11
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner10
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner9
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner8
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner7
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner6
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner5
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner4
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner3
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Inner2
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.0)
+      )
+      (layer_rule Back
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 4.2)
+        (against_preferred_direction_trace_costs 5.2)
+      )
+    )
+  )
+  (placement
+    (component "SIL-14f1d1.5"
+      (place 
+        CONN31 2950.0 -3900.0 front 0
+        (pin 1 (clearance_class power))
+        (pin 2 (clearance_class power))
+        (pin 3 (clearance_class default))
+        (pin 4 (clearance_class default))
+        (pin 5 (clearance_class default))
+        (pin 6 (clearance_class default))
+        (pin 7 (clearance_class default))
+        (pin 8 (clearance_class default))
+        (pin 9 (clearance_class default))
+        (pin 10 (clearance_class default))
+        (pin 11 (clearance_class default))
+        (pin 12 (clearance_class "kicad_default"))
+        (pin 13 (clearance_class default))
+        (pin 14 (clearance_class default))
+      )
+      (place 
+        CONN3 2950.0 -3800.0 front 0
+        (pin 1 (clearance_class power))
+        (pin 2 (clearance_class power))
+        (pin 3 (clearance_class default))
+        (pin 4 (clearance_class default))
+        (pin 5 (clearance_class default))
+        (pin 6 (clearance_class default))
+        (pin 7 (clearance_class default))
+        (pin 8 (clearance_class default))
+        (pin 9 (clearance_class default))
+        (pin 10 (clearance_class default))
+        (pin 11 (clearance_class default))
+        (pin 12 (clearance_class "kicad_default"))
+        (pin 13 (clearance_class default))
+        (pin 14 (clearance_class default))
+      )
+      (place 
+        CONN1 2950.0 -2100.0 front 0
+        (pin 1 (clearance_class default))
+        (pin 2 (clearance_class default))
+        (pin 3 (clearance_class default))
+        (pin 4 (clearance_class default))
+        (pin 5 (clearance_class default))
+        (pin 6 (clearance_class default))
+        (pin 7 (clearance_class default))
+        (pin 8 (clearance_class default))
+        (pin 9 (clearance_class default))
+        (pin 10 (clearance_class default))
+        (pin 11 (clearance_class default))
+        (pin 12 (clearance_class default))
+        (pin 13 (clearance_class default))
+        (pin 14 (clearance_class default))
+      )
+      (place 
+        CONN11 2950.0 -2000.0 front 0
+        (pin 1 (clearance_class default))
+        (pin 2 (clearance_class default))
+        (pin 3 (clearance_class default))
+        (pin 4 (clearance_class default))
+        (pin 5 (clearance_class default))
+        (pin 6 (clearance_class default))
+        (pin 7 (clearance_class default))
+        (pin 8 (clearance_class default))
+        (pin 9 (clearance_class default))
+        (pin 10 (clearance_class default))
+        (pin 11 (clearance_class default))
+        (pin 12 (clearance_class default))
+        (pin 13 (clearance_class default))
+        (pin 14 (clearance_class default))
+      )
+    )
+    (component "SWITCH_DJ2235"
+      (place 
+        U3 2140.0 -3540.0 front 0
+        (pin 5 (clearance_class default))
+        (pin 4 (clearance_class default))
+        (pin 6 (clearance_class default))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class power))
+        (pin 3 (clearance_class default))
+      )
+    )
+    (component "PIN_ARRAY_2X1"
+      (place 
+        BAT1 3350.0 -3650.0 front 0
+        (pin 1 (clearance_class power))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+    )
+    (component BH2466
+      (place 
+        U1 2950.0 -3150.0 front 0
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+      )
+      (place 
+        U2 2950.0 -2575.0 front 180
+        (pin 2 (clearance_class power))
+        (pin 1 (clearance_class "kicad_default"))
+      )
+    )
+    (component 1pin
+      (place 
+        P1 3850.0 -3850.0 front 0
+        (pin 1 (clearance_class default))
+      )
+      (place 
+        P2 3850.0 -2050.0 front 0
+        (pin 1 (clearance_class default))
+      )
+      (place 
+        P3 2050.0 -2050.0 front 0
+        (pin 1 (clearance_class default))
+      )
+      (place 
+        P4 2050.0 -3850.0 front 0
+        (pin 1 (clearance_class default))
+      )
+    )
+  )
+  (library
+    (image "SIL-14f1d1.5"
+      (side front)
+      (pin "Rect[A]Pad_59.1x59.1_mil" 1 -650.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 2 -550.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 3 -450.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 4 -350.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 5 -250.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 6 -150.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 7 -50.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 8 50.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 9 150.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 10 250.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 11 350.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 12 450.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 13 550.0 0.0)
+      (pin "Round[A]Pad_59.1_mil" 14 650.0 0.0)
+      (outline
+        (polygon signal 0
+          -702.5 44.0
+          702.5 44.0
+          706.0 47.5
+          706.0 52.5
+          702.5 56.0
+          -702.5 56.0
+          -706.0 52.5
+          -706.0 47.5
+        )
+      )
+      (outline
+        (polygon signal 0
+          697.5 -56.0
+          702.5 -56.0
+          706.0 -52.5
+          706.0 52.5
+          702.5 56.0
+          697.5 56.0
+          694.0 52.5
+          694.0 -52.5
+        )
+      )
+      (outline
+        (polygon signal 0
+          -702.5 -56.0
+          702.5 -56.0
+          706.0 -52.5
+          706.0 -47.5
+          702.5 -44.0
+          -702.5 -44.0
+          -706.0 -47.5
+          -706.0 -52.5
+        )
+      )
+      (outline
+        (polygon signal 0
+          -702.5 -56.0
+          -697.5 -56.0
+          -694.0 -52.5
+          -694.0 52.5
+          -697.5 56.0
+          -702.5 56.0
+          -706.0 52.5
+          -706.0 -52.5
+        )
+      )
+    )
+    (image "SWITCH_DJ2235"
+      (side front)
+      (pin "Round[A]Pad_59.1_mil" 5 0.0 63.0)
+      (pin "Round[A]Pad_59.1_mil" 4 98.4 63.0)
+      (pin "Round[A]Pad_59.1_mil" 6 -98.4 63.0)
+      (pin "Round[A]Pad_59.1_mil" 1 -98.4 -63.0)
+      (pin "Round[A]Pad_59.1_mil" 2 0.0 -63.0)
+      (pin "Round[A]Pad_59.1_mil" 3 98.4 -63.0)
+      (outline
+        (polygon signal 0
+          -178.8 102.3
+          178.8 102.3
+          181.2 104.7
+          181.2 107.9
+          178.8 110.3
+          -178.8 110.3
+          -181.2 107.9
+          -181.2 104.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          175.6 -110.3
+          178.8 -110.3
+          181.2 -107.9
+          181.2 107.9
+          178.8 110.3
+          175.6 110.3
+          173.2 107.9
+          173.2 -107.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -178.8 -110.3
+          178.8 -110.3
+          181.2 -107.9
+          181.2 -104.7
+          178.8 -102.3
+          -178.8 -102.3
+          -181.2 -104.7
+          -181.2 -107.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -178.8 -110.3
+          -175.6 -110.3
+          -173.2 -107.9
+          -173.2 107.9
+          -175.6 110.3
+          -178.8 110.3
+          -181.2 107.9
+          -181.2 -107.9
+        )
+      )
+    )
+    (image "PIN_ARRAY_2X1"
+      (side front)
+      (pin "Rect[A]Pad_60x60_mil" 1 -50.0 0.0)
+      (pin "Round[A]Pad_60_mil" 2 50.0 0.0)
+      (outline
+        (polygon signal 0
+          -101.2 -53.0
+          -98.8 -53.0
+          -97.0 -51.2
+          -97.0 51.2
+          -98.8 53.0
+          -101.2 53.0
+          -103.0 51.2
+          -103.0 -51.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          -101.2 47.0
+          101.2 47.0
+          103.0 48.8
+          103.0 51.2
+          101.2 53.0
+          -101.2 53.0
+          -103.0 51.2
+          -103.0 48.8
+        )
+      )
+      (outline
+        (polygon signal 0
+          98.8 -53.0
+          101.2 -53.0
+          103.0 -51.2
+          103.0 51.2
+          101.2 53.0
+          98.8 53.0
+          97.0 51.2
+          97.0 -51.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          -101.2 -53.0
+          101.2 -53.0
+          103.0 -51.2
+          103.0 -48.8
+          101.2 -47.0
+          -101.2 -47.0
+          -103.0 -48.8
+          -103.0 -51.2
+        )
+      )
+    )
+    (image BH2466
+      (side front)
+      (pin "Round[A]Pad_59.1_mil" 2 879.9 0.0)
+      (pin "Round[A]Pad_59.1_mil" 1 -879.9 0.0)
+      (outline
+        (polygon signal 0
+          -987.4 248.4
+          987.4 248.4
+          991.8 252.8
+          991.8 259.0
+          987.4 263.4
+          -987.4 263.4
+          -991.8 259.0
+          -991.8 252.8
+        )
+      )
+      (outline
+        (polygon signal 0
+          -987.4 -263.4
+          -981.2 -263.4
+          -976.8 -259.0
+          -976.8 259.0
+          -981.2 263.4
+          -987.4 263.4
+          -991.8 259.0
+          -991.8 -259.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          -987.4 -263.4
+          987.4 -263.4
+          991.8 -259.0
+          991.8 -252.8
+          987.4 -248.4
+          -987.4 -248.4
+          -991.8 -252.8
+          -991.8 -259.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          981.2 -263.4
+          987.4 -263.4
+          991.8 -259.0
+          991.8 259.0
+          987.4 263.4
+          981.2 263.4
+          976.8 259.0
+          976.8 -259.0
+        )
+      )
+    )
+    (image 1pin
+      (side front)
+      (pin "Round[A]Pad_160_mil" 1 0.0 0.0)
+      (outline
+        (polygon signal 0
+          -0.6177777777777778 -97.5
+          0.6177777777777778 -97.5
+          30.124867768939236 -92.72367248344509
+          57.35322580645161 -78.94677419354839
+          78.94677419354839 -57.35322580645161
+          92.72367248344509 -30.124867768939236
+          97.5 -0.6177777777777778
+          97.5 0.6177777777777778
+          92.72367248344509 30.124867768939236
+          78.94677419354839 57.35322580645161
+          57.35322580645161 78.94677419354839
+          30.124867768939236 92.72367248344509
+          0.6177777777777778 97.5
+          -0.6177777777777778 97.5
+          -30.124867768939236 92.72367248344509
+          -57.35322580645161 78.94677419354839
+          -78.94677419354839 57.35322580645161
+          -92.72367248344509 30.124867768939236
+          -97.5 0.6177777777777778
+          -97.5 -0.6177777777777778
+          -92.72367248344509 -30.124867768939236
+          -78.94677419354839 -57.35322580645161
+          -57.35322580645161 -78.94677419354839
+          -30.124867768939236 -92.72367248344509
+        )
+      )
+    )
+    (padstack "Round[A]Pad_160_mil"
+      (shape
+        (circle Front 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner15 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner14 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner13 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner12 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner11 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner10 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner9 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner8 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner7 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner6 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner5 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner4 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner3 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner2 160.0 0.0 0.0)
+      )
+      (shape
+        (circle Back 160.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_59.1_mil"
+      (shape
+        (circle Front 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner15 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner14 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner13 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner12 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner11 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner10 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner9 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner8 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner7 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner6 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner5 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner4 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner3 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Inner2 59.2 0.0 0.0)
+      )
+      (shape
+        (circle Back 59.2 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_60_mil"
+      (shape
+        (circle Front 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner15 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner14 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner13 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner12 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner11 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner10 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner9 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner8 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner7 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner6 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner5 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner4 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner3 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner2 60.0 0.0 0.0)
+      )
+      (shape
+        (circle Back 60.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_59.1x59.1_mil"
+      (shape
+        (rect Front -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner15 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner14 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner13 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner12 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner11 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner10 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner9 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner8 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner7 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner6 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner5 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner4 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner3 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Inner2 -29.5 -29.5 29.6 29.6)
+      )
+      (shape
+        (rect Back -29.5 -29.5 29.6 29.6)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_60x60_mil"
+      (shape
+        (rect Front -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner15 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner14 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner13 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner12 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner11 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner10 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner9 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner8 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner7 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner6 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner5 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner4 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner3 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Inner2 -30.0 -30.0 30.0 30.0)
+      )
+      (shape
+        (rect Back -30.0 -30.0 30.0 30.0)
+      )
+      (attach off)
+    )
+    (padstack "Via[0-15]_28:16_mil"
+      (shape
+        (circle Front 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner15 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner14 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner13 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner12 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner11 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner10 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner9 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner8 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner7 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner6 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner5 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner4 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner3 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner2 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Back 28.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Via[0-15]_28:0_mil"
+      (shape
+        (circle Front 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner15 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner14 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner13 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner12 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner11 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner10 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner9 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner8 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner7 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner6 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner5 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner4 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner3 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Inner2 28.0 0.0 0.0)
+      )
+      (shape
+        (circle Back 28.0 0.0 0.0)
+      )
+      (attach off)
+    )
+  )
+  (network
+    (net 3V3 1
+      (pins
+        BAT1-1
+        U3-2
+        CONN3-1
+        CONN31-1
+      )
+    )
+    (net "3V3_ADC" 1
+      (pins
+        BAT1-2
+        CONN3-12
+        CONN31-12
+      )
+    )
+    (net GND 1
+      (pins
+        U2-2
+        CONN3-2
+        CONN31-2
+      )
+    )
+    (net "N-000041" 1
+      (pins
+        U2-1
+        U1-2
+      )
+    )
+    (net "N-000042" 1
+      (pins
+        U1-1
+        U3-1
+      )
+    )
+    (via 
+      "Via[0-15]_28:16_mil" "Via[0-15]_28:16_mil" default
+    )
+    (via 
+      "Via[0-15]_28:0_mil" "Via[0-15]_28:0_mil" default
+    )
+    (via 
+      "Via[0-15]_28:16_mil-kicad_default" "Via[0-15]_28:16_mil" "kicad_default"
+    )
+    (via 
+      "Via[0-15]_28:0_mil-kicad_default" "Via[0-15]_28:0_mil" "kicad_default"
+    )
+    (via 
+      "Via[0-15]_28:16_mil-power" "Via[0-15]_28:16_mil" power
+    )
+    (via 
+      "Via[0-15]_28:0_mil-power" "Via[0-15]_28:0_mil" power
+    )
+    (via_rule
+      default "Via[0-15]_28:16_mil"
+    )
+    (via_rule
+      "kicad_default" "Via[0-15]_28:16_mil-kicad_default"
+    )
+    (via_rule
+      power "Via[0-15]_28:16_mil-power"
+    )
+    (class default
+      (clearance_class default)
+      (via_rule default)
+      (rule
+        (width 8.0)
+      )
+      (circuit 
+        (use_layer Front Inner15 Inner14 Inner13 Inner12 Inner11 Inner10 Inner9 Inner8 Inner7 Inner6 Inner5 Inner4 Inner3 Inner2 Back)
+      )
+    )
+    (class "kicad_default"
+      "3V3_ADC" "N-000041" "N-000042"
+      (clearance_class "kicad_default")
+      (via_rule kicad_default)
+      (rule
+        (width 8.0)
+      )
+      (circuit 
+        (use_layer Front Inner15 Inner14 Inner13 Inner12 Inner11 Inner10 Inner9 Inner8 Inner7 Inner6 Inner5 Inner4 Inner3 Inner2 Back)
+      )
+    )
+    (class power
+      3V3 GND
+      (clearance_class power)
+      (via_rule power)
+      (rule
+        (width 8.0)
+      )
+      (circuit 
+        (use_layer Front Inner15 Inner14 Inner13 Inner12 Inner11 Inner10 Inner9 Inner8 Inner7 Inner6 Inner5 Inner4 Inner3 Inner2 Back)
+      )
+    )
+  )
+  (wiring
+    (wire
+      (polyline_path Inner14 8.0
+        2354.9 -3843.4 2354.8 -3843.3 
+        2341.9 -3841.8 2341.9 -3800.0 
+        2341.9 -3800.0 2342.0 -3800.0 
+      )
+      (net 3V3 1)
+      (clearance_class power)
+    )
+    (wire
+      (polyline_path Inner14 8.0
+        3300.0 -3650.0 3300.0 -3650.1 
+        3300.0 -3650.0 2682.6 -3650.0 
+        2682.6 -3650.0 2542.0 -3790.6 
+        2542.0 -3790.6 2542.0 -3841.2 
+        2542.0 -3841.2 2539.8 -3843.4 
+        2539.8 -3843.4 2343.5 -3843.4 
+        2354.9 -3843.4 2354.8 -3843.3 
+        2341.9 -3830.4 2341.8 -3830.5 
+      )
+      (net 3V3 1)
+      (clearance_class power)
+    )
+    (wire
+      (polyline_path Inner14 8.0
+        2354.9 -3843.4 2354.8 -3843.3 
+        2341.9 -3830.4 2341.8 -3830.5 
+        0.0 -3858.1 -0.1 -3858.1 
+        2300.0 -3899.9 2300.0 -3900.0 
+      )
+      (net 3V3 1)
+      (clearance_class power)
+    )
+    (wire
+      (polyline_path Inner14 8.0
+        2300.0 -3900.0 2299.9 -3900.0 
+        2300.0 -3900.0 2300.0 -3899.9 
+        0.0 -3858.1 -0.1 -3858.1 
+      )
+      (net 3V3 1)
+      (clearance_class power)
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Inner15 8.0
+        2070.1 -3150.0 2070.2 -3149.9 
+        2070.1 -3150.0 2090.8 -3170.7 
+        2090.8 -3170.7 2090.8 -3553.8 
+        2090.8 -3553.8 2041.6 -3603.0 
+        2041.6 -3603.0 2041.5 -3602.9 
+      )
+      (net "N-000042" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Inner15 8.0
+        2300.0 -3800.0 2300.0 -3800.1 
+        2300.0 -3800.0 2299.9 -3800.0 
+        2258.2 0.0 2258.2 -0.1 
+      )
+      (net 3V3 1)
+      (clearance_class power)
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Inner15 8.0
+        2140.0 -3603.0 2140.1 -3603.0 
+        2140.0 -3603.0 2140.0 -3681.8 
+        2140.0 -3681.8 2258.2 -3800.0 
+        2258.2 -3800.0 2258.1 -3800.1 
+      )
+      (net 3V3 1)
+      (clearance_class power)
+    )
+    (wire
+      (polyline_path Inner15 8.0
+        2400.0 -3800.0 2399.9 -3800.0 
+        2400.0 -3352.4 2400.0 -3900.0 
+        2400.0 -3900.0 2399.9 -3900.0 
+      )
+      (net GND 1)
+      (clearance_class power)
+    )
+    (wire
+      (polyline_path Inner15 8.0
+        2070.1 -2575.0 2070.2 -2574.9 
+        2070.1 -2575.0 2400.0 -2904.9 
+        2400.0 -3352.4 2400.0 -3900.0 
+        2400.0 -3800.0 2399.9 -3800.0 
+      )
+      (net GND 1)
+      (clearance_class power)
+    )
+    (wire
+      (polyline_path Inner15 8.0
+        3400.0 -3800.0 3399.9 -3800.0 
+        3400.0 -3742.0 3400.0 -3900.0 
+        3400.0 -3900.0 3399.9 -3900.0 
+      )
+      (net "3V3_ADC" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Inner15 8.0
+        3400.0 -3650.0 3400.1 -3650.0 
+        3400.0 -3742.0 3400.0 -3900.0 
+        3400.0 -3800.0 3399.9 -3800.0 
+      )
+      (net "3V3_ADC" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path Inner14 8.0
+        2300.0 -3800.0 2300.0 -3799.9 
+        2300.0 -3800.0 2300.1 -3800.0 
+        2341.9 0.0 2341.9 0.1 
+      )
+      (net 3V3 1)
+      (clearance_class power)
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path Inner15 8.0
+        3829.9 -2575.0 3830.0 -2575.0 
+        3829.9 -2575.0 3829.9 -3150.0 
+        3829.9 -3150.0 3829.8 -3150.0 
+      )
+      (net "N-000041" 1)
+      (clearance_class "kicad_default")
+    )
+  )
+)

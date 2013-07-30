@@ -1,0 +1,192 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 28 Jun 2013 12:04:21 PM CEST
+
+BeginCmp
+TimeStamp = /4FA04263;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC75D38;
+Reference = C2;
+ValeurCmp = 4,7uF;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC75854;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC75D3E;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C40374;
+Reference = CONN2;
+ValeurCmp = CONN_14;
+IdModule  = SIL-14f1d1.5_double;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4037B;
+Reference = CONN3;
+ValeurCmp = CONN_14;
+IdModule  = SIL-14f1d1.5_double;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4035F;
+Reference = CONN4;
+ValeurCmp = CONN_14;
+IdModule  = SIL-14f1d1.5_double;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC74388;
+Reference = D1;
+ValeurCmp = KPT-1608 EC;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC74395;
+Reference = D2;
+ValeurCmp = KPT-1608 YC;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D03C38;
+Reference = J1;
+ValeurCmp = USB_3;
+IdModule  = MICRO_USB_TYPE_B_CHINA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC7667D;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC764C7;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC726E6;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin_2m5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC726EE;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin_2m5;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D0566A;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = fiducial15;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D05670;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = fiducial15;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D05676;
+Reference = P5;
+ValeurCmp = PD;
+IdModule  = front_vsoh_logo;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C9B21D;
+Reference = P8;
+ValeurCmp = PD;
+IdModule  = back_info_262013;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC7666A;
+Reference = PROG1;
+ValeurCmp = CONN_14;
+IdModule  = VS_pin_array_7x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC74373;
+Reference = R1;
+ValeurCmp = 330;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC74380;
+Reference = R2;
+ValeurCmp = 330;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C5A4A6;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C5A495;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D04396;
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC76FA3;
+Reference = Reset1;
+ValeurCmp = Reset;
+IdModule  = VerticalButton;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC74353;
+Reference = U1;
+ValeurCmp = FT232R;
+IdModule  = VS_SSOP28big;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C5A1A7;
+Reference = U2;
+ValeurCmp = PCA9548;
+IdModule  = PCA9548;
+EndCmp
+
+EndListe

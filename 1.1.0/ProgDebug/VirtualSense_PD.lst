@@ -1,0 +1,81 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 15/10/2012 09:59:02
+
+#Cmp ( order = Reference )
+| C1         4,7uF       ;             
+| C2         100nF       ;             
+| C3         100nF       ;             
+| C6         100nF       ;             
+| CONN2      CONN_14     ;             
+| CONN3      CONN_14     ;             
+| CONN4      CONN_14     ;             
+| D1         LED         ;             
+| D2         LED         ;             
+| D3         LED         ;             
+| D4         LED         ;             
+| D5         LED         ;             
+| D6         LED         ;             
+| D7         LED         ;             
+| D8         LED         ;             
+| D9         LED         ;             
+| J1         USB_2       ;             
+| J2         USB_2       ;             
+| JP1        JUMPER      ;             
+| JP2        JUMPER      ;             
+| JP3        JUMPER      ;             
+| P6         CONN_1      ;             
+| P7         CONN_1      ;             
+| PROG1      CONN_14     ;             
+| R1         R           ;             
+| R2         R           ;             
+| R3         R           ;             
+| R4         R           ;             
+| R5         R           ;             
+| R6         R           ;             
+| R7         R           ;             
+| R8         R           ;             
+| R9         R           ;             
+| R10        R           ;             
+| ResetButton1 DPST        ;             
+| U1         FT232R      ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 100nF        C2        ;             
+| 100nF        C3        ;             
+| 100nF        C6        ;             
+| 4,7uF        C1        ;             
+| CONN_1       P6        ;             
+| CONN_1       P7        ;             
+| CONN_14      CONN2     ;             
+| CONN_14      CONN3     ;             
+| CONN_14      CONN4     ;             
+| CONN_14      PROG1     ;             
+| DPST         ResetButton1;             
+| FT232R       U1        ;             
+| JUMPER       JP1       ;             
+| JUMPER       JP2       ;             
+| JUMPER       JP3       ;             
+| LED          D1        ;             
+| LED          D2        ;             
+| LED          D3        ;             
+| LED          D4        ;             
+| LED          D5        ;             
+| LED          D6        ;             
+| LED          D7        ;             
+| LED          D8        ;             
+| LED          D9        ;             
+| R            R1        ;             
+| R            R2        ;             
+| R            R3        ;             
+| R            R4        ;             
+| R            R5        ;             
+| R            R6        ;             
+| R            R7        ;             
+| R            R8        ;             
+| R            R9        ;             
+| R            R10       ;             
+| USB_2        J1        ;             
+| USB_2        J2        ;             
+#End Cmp
+
+#End List
