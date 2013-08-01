@@ -1,5 +1,5 @@
-update=20/05/2013 15:19:54
-last_client=eeschema
+update=Wed 31 Jul 2013 11:47:56 AM CEST
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -7,39 +7,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[pcbnew]
-version=1
-LastNetListRead=virtualsense_dipolo_rev2.net
-PadDrill=0
-PadSizeH=0.508
-PadSizeV=0.66802
-PcbTextSizeV=2.032
-PcbTextSizeH=1.524
-PcbTextThickness=0.3048
-ModuleTextSizeV=1.524
-ModuleTextSizeH=1.524
-ModuleTextSizeThickness=0.3048
-SolderMaskClearance=0.2032
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.381
-BoardOutlineThickness=0.381
-ModuleOutlineThickness=0.508
-[pcbnew/libraries]
-LibDir=../lbr
-LibName1=VirtualSenseB
-LibName2=VirtualSense
-LibName3=sockets
-LibName4=connect
-LibName5=discret
-LibName6=pin_array
-LibName7=divers
-LibName8=libcms
-LibName9=display
-LibName10=led
-LibName11=dip_sockets
-LibName12=pga_sockets
-LibName13=valves
-LibName14=logo/OPENHARDWARE
 [eeschema]
 version=1
 LibDir=../lbr
@@ -81,3 +48,39 @@ LibName29=contrib
 LibName30=valves
 LibName31=VirtualSenseB
 LibName32=VirtualSense
+[pcbnew]
+version=1
+LastNetListRead=virtualsense_dipolo_rev2.net
+UseCmpFile=1
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    0.299720"
+PadSizeV="    1.300480"
+PcbTextSizeV="    2.032000"
+PcbTextSizeH="    1.524000"
+PcbTextThickness="    0.304800"
+ModuleTextSizeV="    1.524000"
+ModuleTextSizeH="    1.524000"
+ModuleTextSizeThickness="    0.304800"
+SolderMaskClearance="    0.203200"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.381000"
+BoardOutlineThickness="    0.381000"
+ModuleOutlineThickness="    0.508000"
+[pcbnew/libraries]
+LibDir=../lbr
+LibName1=VirtualSenseB
+LibName2=VirtualSense
+LibName3=sockets
+LibName4=connect
+LibName5=discret
+LibName6=pin_array
+LibName7=divers
+LibName8=libcms
+LibName9=display
+LibName10=led
+LibName11=dip_sockets
+LibName12=pga_sockets
+LibName13=valves
+LibName14=logo/OPENHARDWARE
+LibName15=YT_antennes/antennes
