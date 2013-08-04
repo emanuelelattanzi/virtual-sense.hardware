@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 28 Jun 2013 10:44:55 AM CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 02 Aug 2013 01:01:18 PM CEST
 
 BeginCmp
 TimeStamp = /4FD877DA;
@@ -36,6 +36,13 @@ IdModule  = VS_SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /51FA60A2;
+Reference = C5;
+ValeurCmp = 82p;
+IdModule  = VS_SM0402_LR;
+EndCmp
+
+BeginCmp
 TimeStamp = /50C5D12F;
 Reference = C6;
 ValeurCmp = 1uF;
@@ -43,24 +50,31 @@ IdModule  = VS_SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /50C5ED5C;
+TimeStamp = /51FA60B1;
 Reference = C7;
-ValeurCmp = 1.5p;
-IdModule  = VS_SM0805;
+ValeurCmp = 39p;
+IdModule  = VS_SM0402_LR;
 EndCmp
 
 BeginCmp
-TimeStamp = /50C5ED4E;
+TimeStamp = /51FA659C;
 Reference = C8;
-ValeurCmp = 1.5p;
-IdModule  = VS_SM0805;
+ValeurCmp = 1p8;
+IdModule  = VS_SM0402_LR;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FBE3636;
-Reference = C11;
-ValeurCmp = 100n;
-IdModule  = VS_SM0805;
+TimeStamp = /51FA6576;
+Reference = C9;
+ValeurCmp = 1p5;
+IdModule  = VS_SM0402_LR;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FA6554;
+Reference = C10;
+ValeurCmp = 1p8;
+IdModule  = VS_SM0402_LR;
 EndCmp
 
 BeginCmp
@@ -68,6 +82,13 @@ TimeStamp = /4FA04A13;
 Reference = C12;
 ValeurCmp = 1u;
 IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FA7A35;
+Reference = C13;
+ValeurCmp = 1p;
+IdModule  = VS_SM0402_LR;
 EndCmp
 
 BeginCmp
@@ -116,21 +137,21 @@ BeginCmp
 TimeStamp = /51C40B94;
 Reference = CONN1;
 ValeurCmp = CONN_14;
-IdModule  = SIL-14f1d1.5_double;
+IdModule  = SIL-14f1d1.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C40B87;
 Reference = CONN2;
 ValeurCmp = CONN_14;
-IdModule  = SIL-14f1d1.5_double;
+IdModule  = SIL-14f1d1.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C40B72;
 Reference = CONN4;
 ValeurCmp = CONN_14;
-IdModule  = SIL-14f1d1.5_double;
+IdModule  = SIL-14f1d1.5;
 EndCmp
 
 BeginCmp
@@ -176,34 +197,6 @@ IdModule  = 1pinOnlyHole_2m5;
 EndCmp
 
 BeginCmp
-TimeStamp = /512F8473;
-Reference = P5;
-ValeurCmp = CONN_1;
-IdModule  = fiducial15;
-EndCmp
-
-BeginCmp
-TimeStamp = /512F846D;
-Reference = P6;
-ValeurCmp = CONN_1;
-IdModule  = fiducial15;
-EndCmp
-
-BeginCmp
-TimeStamp = /512F847C;
-Reference = P7;
-ValeurCmp = RS;
-IdModule  = front_vsoh_logo;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C9B8B5;
-Reference = P8;
-ValeurCmp = RS;
-IdModule  = back_info_262013;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FD77430;
 Reference = Q1;
 ValeurCmp = MOS_N;
@@ -213,13 +206,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4FD87805;
 Reference = Q2;
-ValeurCmp = MOS_N;
-IdModule  = SOT23GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FC72430;
-Reference = Q4;
 ValeurCmp = MOS_N;
 IdModule  = SOT23GDS;
 EndCmp
@@ -250,6 +236,20 @@ TimeStamp = /4FD8650B;
 Reference = R4;
 ValeurCmp = 200;
 IdModule  = VS_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FA8FDA;
+Reference = R5;
+ValeurCmp = R5;
+IdModule  = VS_SM0402_LR_mono;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FA8507;
+Reference = R6;
+ValeurCmp = 0R;
+IdModule  = VS_SM0402_LR;
 EndCmp
 
 BeginCmp
@@ -295,10 +295,24 @@ IdModule  = quarzo_smd_32MHz;
 EndCmp
 
 BeginCmp
-TimeStamp = /50C9E473;
+TimeStamp = /51FA7077;
 Reference = U4;
-ValeurCmp = DIPOLO_2_4_V1;
-IdModule  = DIPOLO_2_4_V1;
+ValeurCmp = BALUN_ANTENNA_2GHZ4_TI;
+IdModule  = balun_antenna_2GHz4_ti;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FA7068;
+Reference = U5;
+ValeurCmp = ANTENNA_EXT_2GHZ4;
+IdModule  = antenna_ext_2GHz4;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FA7059;
+Reference = U6;
+ValeurCmp = ANTENNA2GHZ4_TI;
+IdModule  = antenna2GHz4_ti;
 EndCmp
 
 EndListe
