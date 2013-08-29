@@ -1,7 +1,11 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 27 Aug 2013 05:24:56 PM CEST
+EESchema-DOCLIB  Version 2.0  Date: Wed 28 Aug 2013 09:42:31 AM CEST
 #
 $CMP 24AA512
 D 24AA512
+$ENDCMP
+#
+$CMP CP1SMALL
+D Condensateur polarise
 $ENDCMP
 #
 $CMP DS2411
@@ -23,6 +27,11 @@ $ENDCMP
 #
 $CMP PCF2123
 D PCF2123
+$ENDCMP
+#
+$CMP RSML
+D Resistance
+K R DEV
 $ENDCMP
 #
 #End Doc Library
