@@ -46,76 +46,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 8700 3000 0    60   Input ~ 0
-CLKOUT
 Text GLabel 10400 750  0    60   Input ~ 0
 3V3
 Text GLabel 10400 850  0    60   Input ~ 0
 GND
-Text GLabel 8700 2400 0    60   Input ~ 0
-GND
-Text GLabel 8700 2300 0    60   Input ~ 0
-3V3
-Text GLabel 8700 3100 0    60   Input ~ 0
-TXD2/MOSI3/P5.6
-Text GLabel 8700 3200 0    60   Input ~ 0
-RXD2/MISO3/P5.7
-Text GLabel 10400 2600 0    60   Input ~ 0
-ADC6/P6.6
-Text GLabel 10400 2500 0    60   Input ~ 0
-ADC5/P6.5
-$Comp
-L CONN_14 CONN4
-U 1 1 4FC4A947
-P 10850 2950
-F 0 "CONN4" V 10820 2950 60  0000 C CNN
-F 1 "CONN_14" V 10930 2950 60  0001 C CNN
-F 2 "" H 10850 2950 60  0001 C CNN
-F 3 "" H 10850 2950 60  0001 C CNN
-	1    10850 2950
-	1    0    0    -1  
-$EndComp
-Text GLabel 8700 3500 0    60   Input ~ 0
-VREF+/P5.0
-Text GLabel 8700 3600 0    60   Input ~ 0
-VREF-/P5.1
-Text GLabel 10400 2700 0    60   Input ~ 0
-INT2/P2.5
-Text GLabel 8700 3400 0    60   Input ~ 0
-INT3/P2.6
-Text GLabel 8700 3300 0    60   Input ~ 0
-INT4/P2.7
-Text GLabel 10400 2800 0    60   Input ~ 0
-INT1/P2.3
-Text GLabel 8700 2800 0    60   Input ~ 0
-ADC3/P6.3
-Text GLabel 8700 2700 0    60   Input ~ 0
-ADC2/P6.2
-Text GLabel 8700 2500 0    60   Input ~ 0
-ADC0/P6.0
-Text GLabel 8700 2600 0    60   Input ~ 0
-ADC1/P6.1
-Text GLabel 10400 3600 0    60   Input ~ 0
-INT0/P2.0
-Text GLabel 8700 2900 0    60   Input ~ 0
-ADC4/P6.4
 Text GLabel 10400 1850 0    60   Input ~ 0
 DIO0/P7.4
 Text GLabel 10400 1950 0    60   Input ~ 0
 DIO1/P7.5
 Text GLabel 10400 2050 0    60   Input ~ 0
 BSL_SEL/P3.3
-$Comp
-L CONN_14 CONN2
-U 1 1 4FC4A5C9
-P 9150 2950
-F 0 "CONN2" V 9120 2950 60  0000 C CNN
-F 1 "CONN_14" V 9230 2950 60  0001 C CNN
-F 2 "" H 9150 2950 60  0001 C CNN
-F 3 "" H 9150 2950 60  0001 C CNN
-	1    9150 2950
-	1    0    0    -1  
-$EndComp
 Text GLabel 10400 1150 0    60   Input ~ 0
 SCK/P3.0
 $Comp
@@ -154,10 +94,6 @@ Text GLabel 8650 1850 0    60   Input ~ 0
 CC_GPIO3/P1.1
 Text GLabel 8650 1050 0    60   Input ~ 0
 CC_VREG_EN/P1.0
-Text GLabel 10400 2300 0    60   Input ~ 0
-SDA/P3.1
-Text GLabel 10400 2400 0    60   Input ~ 0
-SCL/P3.2
 Text GLabel 8650 850  0    60   Input ~ 0
 CC_MOSI/P3.7
 Text GLabel 8650 1150 0    60   Input ~ 0
@@ -188,20 +124,6 @@ Text GLabel 8650 1350 0    60   Input ~ 0
 CC_PM/P4.2
 Text GLabel 8650 1450 0    60   Input ~ 0
 CS2/P4.3
-Text GLabel 10400 3200 0    60   Input ~ 0
-SN0_EN/P8.3
-Text GLabel 10400 3100 0    60   Input ~ 0
-LED2/P8.2
-Text GLabel 10400 2900 0    60   Input ~ 0
-LED0/P8.0
-Text GLabel 10400 3000 0    60   Input ~ 0
-LED1/P8.1
-Text GLabel 10400 3400 0    60   Input ~ 0
-DIO2/P8.5
-Text GLabel 10400 3300 0    60   Input ~ 0
-SN1_EN/P8.4
-Text GLabel 10400 3500 0    60   Input ~ 0
-DIO3/P8.6
 $Comp
 L CONN_1 P3
 U 1 1 512F7BD0
@@ -1194,34 +1116,6 @@ Wire Wire Line
 Wire Wire Line
 	10600 6200 10550 6200
 Wire Wire Line
-	10400 3500 10500 3500
-Wire Wire Line
-	10400 3300 10500 3300
-Wire Wire Line
-	10500 3100 10400 3100
-Wire Wire Line
-	10500 2900 10400 2900
-Wire Wire Line
-	10500 2700 10400 2700
-Wire Wire Line
-	10500 2500 10400 2500
-Wire Wire Line
-	10500 2300 10400 2300
-Wire Wire Line
-	8700 3600 8800 3600
-Wire Wire Line
-	8700 3400 8800 3400
-Wire Wire Line
-	8700 3200 8800 3200
-Wire Wire Line
-	8700 3000 8800 3000
-Wire Wire Line
-	8700 2800 8800 2800
-Wire Wire Line
-	8700 2600 8800 2600
-Wire Wire Line
-	8700 2400 8800 2400
-Wire Wire Line
 	8650 2050 8800 2050
 Wire Wire Line
 	10500 1850 10400 1850
@@ -1276,35 +1170,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 1950 10500 1950
 Wire Wire Line
-	8800 2300 8700 2300
-Wire Wire Line
-	8800 2500 8700 2500
-Wire Wire Line
-	8800 2700 8700 2700
-Wire Wire Line
-	8800 2900 8700 2900
-Wire Wire Line
-	8800 3100 8700 3100
-Wire Wire Line
-	8800 3300 8700 3300
-Wire Wire Line
-	8800 3500 8700 3500
-Wire Wire Line
 	10400 2050 10500 2050
-Wire Wire Line
-	10400 2400 10500 2400
-Wire Wire Line
-	10400 2600 10500 2600
-Wire Wire Line
-	10400 2800 10500 2800
-Wire Wire Line
-	10400 3000 10500 3000
-Wire Wire Line
-	10400 3200 10500 3200
-Wire Wire Line
-	10400 3400 10500 3400
-Wire Wire Line
-	10500 3600 10400 3600
 Wire Wire Line
 	10800 5650 10650 5650
 Wire Wire Line
