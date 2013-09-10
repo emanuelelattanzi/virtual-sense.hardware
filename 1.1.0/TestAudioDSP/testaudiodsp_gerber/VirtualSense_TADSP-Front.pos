@@ -1,4 +1,4 @@
-### Module positions - created on Wed 04 Sep 2013 11:17:05 AM CEST ###
+### Module positions - created on Tue 10 Sep 2013 12:58:56 PM CEST ###
 ### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
 ## Unit = inches, Angle = deg.
 ## Side : Front
@@ -56,5 +56,6 @@ R31      10K              VS_SM0603           3.2200    -3.6300      90.0    Fro
 R32      10K              VS_SM0603           2.8200    -3.3700       0.0    Front
 R33      10K              VS_SM0603           3.4400    -2.5500       0.0    Front
 R34      10K              VS_SM0603           3.4400    -2.6500       0.0    Front
+R35      0                VS_SM0603           3.2210    -2.6000      90.0    Front
 U2       TLV320AIC3204    RHB_S-PVQFN-N32     3.0600    -2.4800      90.0    Front
 ## End

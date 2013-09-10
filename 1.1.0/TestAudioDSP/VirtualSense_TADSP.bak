@@ -47,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 10400 750  0    60   Input ~ 0
-3V3
+3V3L
 Text GLabel 10400 850  0    60   Input ~ 0
 GND
 Text GLabel 10400 1850 0    60   Input ~ 0
@@ -261,7 +261,7 @@ F0 "VirtualSense_TADSP_3" 50
 F1 "VirtualSense_TADSP_3.sch" 50
 $EndSheet
 Text GLabel 10800 5400 2    60   Input ~ 0
-3V3
+3V3L
 $Comp
 L GNDPWR #PWR22
 U 1 1 521DAD52
@@ -1100,17 +1100,6 @@ F 3 "" H 3550 2150 60  0000 C CNN
 	1    3550 2150
 	0    -1   -1   0   
 $EndComp
-$Comp
-L CONN_1 P9
-U 1 1 521F5C88
-P 4900 6450
-F 0 "P9" H 4980 6450 40  0000 L CNN
-F 1 "MC-D" H 4900 6505 30  0001 C CNN
-F 2 "" H 4900 6450 60  0000 C CNN
-F 3 "" H 4900 6450 60  0000 C CNN
-	1    4900 6450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10550 6100 10600 6100
 Wire Wire Line
@@ -1520,4 +1509,30 @@ Wire Wire Line
 	10300 5150 10400 5150
 Wire Wire Line
 	4850 6300 4900 6300
+$Comp
+L RSML R?
+U 1 1 522EF121
+P 4900 6500
+F 0 "R?" V 4980 6500 40  0000 C CNN
+F 1 "0" V 4902 6500 40  0000 C CNN
+F 2 "" V 4830 6500 30  0000 C CNN
+F 3 "" H 4900 6500 30  0000 C CNN
+	1    4900 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 522EF136
+P 4900 6750
+F 0 "#PWR?" H 4900 6800 40  0001 C CNN
+F 1 "GNDPWR" H 4900 6670 40  0000 C CNN
+F 2 "" H 4900 6750 60  0001 C CNN
+F 3 "" H 4900 6750 60  0001 C CNN
+	1    4900 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6300 4900 6350
+Wire Wire Line
+	4900 6650 4900 6750
 $EndSCHEMATC
