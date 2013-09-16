@@ -46,84 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 10400 750  0    60   Input ~ 0
-3V3L
-Text GLabel 10400 850  0    60   Input ~ 0
-GND
-Text GLabel 10400 1850 0    60   Input ~ 0
-DIO0/P7.4
-Text GLabel 10400 1950 0    60   Input ~ 0
-DIO1/P7.5
-Text GLabel 10400 2050 0    60   Input ~ 0
-BSL_SEL/P3.3
-Text GLabel 10400 1150 0    60   Input ~ 0
-SCK/P3.0
-$Comp
-L CONN_14 CONN3
-U 1 1 4FC4A2FF
-P 10850 1400
-F 0 "CONN3" V 10820 1400 60  0000 C CNN
-F 1 "CONN_14" V 10930 1400 60  0001 C CNN
-F 2 "" H 10850 1400 60  0001 C CNN
-F 3 "" H 10850 1400 60  0001 C CNN
-	1    10850 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_14 CONN1
-U 1 1 4FC4A1C0
-P 9150 1400
-F 0 "CONN1" V 9120 1400 60  0000 C CNN
-F 1 "CONN_14" V 9230 1400 60  0001 C CNN
-F 2 "" H 9150 1400 60  0001 C CNN
-F 3 "" H 9150 1400 60  0001 C CNN
-	1    9150 1400
-	1    0    0    -1  
-$EndComp
-Text GLabel 8650 1650 0    60   Input ~ 0
-CC_GPIO1/P1.5
-Text GLabel 8650 2050 0    60   Input ~ 0
-CC_GPIO5/P1.7
-Text GLabel 8650 1750 0    60   Input ~ 0
-CC_GPIO2/P1.6
-Text GLabel 8650 1950 0    60   Input ~ 0
-CC_GPIO4/P1.2
-Text GLabel 8650 1550 0    60   Input ~ 0
-CC_GPIO0/P1.3
-Text GLabel 8650 1850 0    60   Input ~ 0
-CC_GPIO3/P1.1
-Text GLabel 8650 1050 0    60   Input ~ 0
-CC_VREG_EN/P1.0
-Text GLabel 8650 850  0    60   Input ~ 0
-CC_MOSI/P3.7
-Text GLabel 8650 1150 0    60   Input ~ 0
-CC_CS/P4.1
-Text GLabel 10400 950  0    60   Input ~ 0
-TXD/MOSI/P2.1/P3.4
-Text GLabel 10400 1050 0    60   Input ~ 0
-RXD/MISO/P2.2/P3.5
-Text GLabel 8650 750  0    60   Input ~ 0
-CC_MISO/P5.4
-Text GLabel 8650 950  0    60   Input ~ 0
-CC_SCK/P5.5
-Text GLabel 8650 1250 0    60   Input ~ 0
-CC_RST/P4.0
-Text GLabel 10400 1250 0    60   Input ~ 0
-TEST
-Text GLabel 10400 1550 0    60   Input ~ 0
-TMS/CS2/PJ.2
-Text GLabel 10400 1450 0    60   Input ~ 0
-TDI/PM1/PJ.1
-Text GLabel 10400 1350 0    60   Input ~ 0
-TDO/CS1/PJ.0
-Text GLabel 10400 1750 0    60   Input ~ 0
-RESET
-Text GLabel 10400 1650 0    60   Input ~ 0
-TCK/PM2/PJ.3
-Text GLabel 8650 1350 0    60   Input ~ 0
-CC_PM/P4.2
-Text GLabel 8650 1450 0    60   Input ~ 0
-CS2/P4.3
 $Comp
 L CONN_1 P3
 U 1 1 512F7BD0
@@ -179,7 +101,7 @@ L CONN_1 P7
 U 1 1 512F7BFC
 P 10900 6950
 F 0 "P7" H 10980 6950 40  0000 L CNN
-F 1 "uC" H 10900 7005 30  0001 C CNN
+F 1 "DSP" H 10900 7005 30  0001 C CNN
 F 2 "" H 10900 6950 60  0001 C CNN
 F 3 "" H 10900 6950 60  0001 C CNN
 	1    10900 6950
@@ -1028,17 +950,6 @@ F 3 "" H 7750 5600 30  0000 C CNN
 	1    7750 5600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L JUMPER JP1
-U 1 1 521E70EB
-P 5800 1950
-F 0 "JP1" H 5800 2100 60  0000 C CNN
-F 1 "JUMPER" H 5800 1870 40  0000 C CNN
-F 2 "" H 5800 1950 60  0000 C CNN
-F 3 "" H 5800 1950 60  0000 C CNN
-	1    5800 1950
-	0    1    1    0   
-$EndComp
 Text GLabel 5400 1650 0    60   Input ~ 0
 MICP
 Text GLabel 5400 2250 0    60   Input ~ 0
@@ -1077,7 +988,7 @@ F 3 "" H 10700 4900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10300 5150 0    60   Input ~ 0
-DIO0/P7.4
+DIO2/P8.5
 $Comp
 L CONN_1 P4
 U 1 1 521F5C6A
@@ -1104,62 +1015,6 @@ Wire Wire Line
 	10550 6100 10600 6100
 Wire Wire Line
 	10600 6200 10550 6200
-Wire Wire Line
-	8650 2050 8800 2050
-Wire Wire Line
-	10500 1850 10400 1850
-Wire Wire Line
-	10500 1650 10400 1650
-Wire Wire Line
-	10500 1450 10400 1450
-Wire Wire Line
-	10500 1250 10400 1250
-Wire Wire Line
-	10500 1050 10400 1050
-Wire Wire Line
-	10500 850  10400 850 
-Wire Wire Line
-	8650 1950 8800 1950
-Wire Wire Line
-	8650 1750 8800 1750
-Wire Wire Line
-	8650 1550 8800 1550
-Wire Wire Line
-	8650 1350 8800 1350
-Wire Wire Line
-	8650 1150 8800 1150
-Wire Wire Line
-	8650 950  8800 950 
-Wire Wire Line
-	8650 750  8800 750 
-Wire Wire Line
-	8800 850  8650 850 
-Wire Wire Line
-	8800 1050 8650 1050
-Wire Wire Line
-	8800 1250 8650 1250
-Wire Wire Line
-	8800 1450 8650 1450
-Wire Wire Line
-	8800 1650 8650 1650
-Wire Wire Line
-	8800 1850 8650 1850
-Wire Wire Line
-	10400 750  10500 750 
-Wire Wire Line
-	10400 950  10500 950 
-Wire Wire Line
-	10400 1150 10500 1150
-Wire Wire Line
-	10400 1350 10500 1350
-Wire Wire Line
-	10400 1550 10500 1550
-Wire Wire Line
-	10400 1750 10500 1750
-Wire Wire Line
-	10400 1950 10500 1950
-Wire Wire Line
-	10400 2050 10500 2050
 Wire Wire Line
 	10800 5650 10650 5650
 Wire Wire Line
@@ -1487,12 +1342,10 @@ Wire Wire Line
 	5400 1650 6200 1650
 Wire Wire Line
 	6200 1650 6200 1850
-Connection ~ 5800 1650
 Wire Wire Line
 	5400 2250 6200 2250
 Wire Wire Line
 	6200 2250 6200 2050
-Connection ~ 5800 2250
 Wire Wire Line
 	2550 6200 3250 6200
 Wire Wire Line
@@ -1535,4 +1388,138 @@ Wire Wire Line
 	4900 6300 4900 6350
 Wire Wire Line
 	4900 6650 4900 6750
+Text GLabel 8700 3000 0    60   Input ~ 0
+CLKOUT
+Text GLabel 8700 2400 0    60   Input ~ 0
+GND
+Text GLabel 8700 2300 0    60   Input ~ 0
+3V3L
+Text GLabel 8700 3100 0    60   Input ~ 0
+TXD2/MOSI3/P5.6
+Text GLabel 8700 3200 0    60   Input ~ 0
+RXD2/MISO3/P5.7
+Text GLabel 10400 2600 0    60   Input ~ 0
+ADC6/P6.6
+Text GLabel 10400 2500 0    60   Input ~ 0
+ADC5/P6.5
+$Comp
+L CONN_14 CONN4
+U 1 1 5236FE9A
+P 10850 2950
+F 0 "CONN4" V 10820 2950 60  0000 C CNN
+F 1 "CONN_14" V 10930 2950 60  0001 C CNN
+F 2 "" H 10850 2950 60  0001 C CNN
+F 3 "" H 10850 2950 60  0001 C CNN
+	1    10850 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8700 3500 0    60   Input ~ 0
+VREF+/P5.0
+Text GLabel 8700 3600 0    60   Input ~ 0
+VREF-/P5.1
+Text GLabel 10400 2700 0    60   Input ~ 0
+INT2/P2.5
+Text GLabel 8700 3400 0    60   Input ~ 0
+INT3/P2.6
+Text GLabel 8700 3300 0    60   Input ~ 0
+INT4/P2.7
+Text GLabel 10400 2800 0    60   Input ~ 0
+INT1/P2.3
+Text GLabel 8700 2800 0    60   Input ~ 0
+ADC3/P6.3
+Text GLabel 8700 2700 0    60   Input ~ 0
+ADC2/P6.2
+Text GLabel 8700 2500 0    60   Input ~ 0
+ADC0/P6.0
+Text GLabel 8700 2600 0    60   Input ~ 0
+ADC1/P6.1
+Text GLabel 10400 3600 0    60   Input ~ 0
+INT0/P2.0
+Text GLabel 8700 2900 0    60   Input ~ 0
+ADC4/P6.4
+$Comp
+L CONN_14 CONN2
+U 1 1 5236FEAC
+P 9150 2950
+F 0 "CONN2" V 9120 2950 60  0000 C CNN
+F 1 "CONN_14" V 9230 2950 60  0001 C CNN
+F 2 "" H 9150 2950 60  0001 C CNN
+F 3 "" H 9150 2950 60  0001 C CNN
+	1    9150 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 10400 2300 0    60   Input ~ 0
+SDA/P3.1
+Text GLabel 10400 2400 0    60   Input ~ 0
+SCL/P3.2
+Text GLabel 10400 3200 0    60   Input ~ 0
+SN0_EN/P8.3
+Text GLabel 10400 3100 0    60   Input ~ 0
+LED2/P8.2
+Text GLabel 10400 2900 0    60   Input ~ 0
+LED0/P8.0
+Text GLabel 10400 3000 0    60   Input ~ 0
+LED1/P8.1
+Text GLabel 10400 3400 0    60   Input ~ 0
+DIO2/P8.5
+Text GLabel 10400 3300 0    60   Input ~ 0
+SN1_EN/P8.4
+Text GLabel 10400 3500 0    60   Input ~ 0
+DIO3/P8.6
+Wire Wire Line
+	10400 3500 10500 3500
+Wire Wire Line
+	10400 3300 10500 3300
+Wire Wire Line
+	10500 3100 10400 3100
+Wire Wire Line
+	10500 2900 10400 2900
+Wire Wire Line
+	10500 2700 10400 2700
+Wire Wire Line
+	10500 2500 10400 2500
+Wire Wire Line
+	10500 2300 10400 2300
+Wire Wire Line
+	8700 3600 8800 3600
+Wire Wire Line
+	8700 3400 8800 3400
+Wire Wire Line
+	8700 3200 8800 3200
+Wire Wire Line
+	8700 3000 8800 3000
+Wire Wire Line
+	8700 2800 8800 2800
+Wire Wire Line
+	8700 2600 8800 2600
+Wire Wire Line
+	8700 2400 8800 2400
+Wire Wire Line
+	8800 2300 8700 2300
+Wire Wire Line
+	8800 2500 8700 2500
+Wire Wire Line
+	8800 2700 8700 2700
+Wire Wire Line
+	8800 2900 8700 2900
+Wire Wire Line
+	8800 3100 8700 3100
+Wire Wire Line
+	8800 3300 8700 3300
+Wire Wire Line
+	8800 3500 8700 3500
+Wire Wire Line
+	10400 2400 10500 2400
+Wire Wire Line
+	10400 2600 10500 2600
+Wire Wire Line
+	10400 2800 10500 2800
+Wire Wire Line
+	10400 3000 10500 3000
+Wire Wire Line
+	10400 3200 10500 3200
+Wire Wire Line
+	10400 3400 10500 3400
+Wire Wire Line
+	10500 3600 10400 3600
 $EndSCHEMATC

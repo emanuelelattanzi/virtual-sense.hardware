@@ -1,30 +1,30 @@
-### Module positions - created on Thu 12 Sep 2013 11:45:03 AM CEST ###
+### Module positions - created on Mon 16 Sep 2013 05:27:31 PM CEST ###
 ### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
 ## Unit = inches, Angle = deg.
 ## Side : Front
 # Ref    Val                  Package         PosX       PosY        Rot     Side
-C1       4u7              VS_SM0805           3.9000    -2.7000      90.0    Back
-C6       NO               VS_SM0603           3.3800    -2.2300       0.0    Back
-C7       10u              VS_SM0805           3.0600    -2.2300     180.0    Back
-C8       NO               VS_SM0603           3.3800    -2.3300       0.0    Back
-C11      10u              VS_SM0805           3.2400    -2.7300     270.0    Back
-C16      4u7              VS_SM0805           3.7100    -2.8600       0.0    Back
-C20      10u              VS_SM0805           2.7300    -2.2900     180.0    Back
-C21      10u              VS_SM0805           2.7300    -2.4700       0.0    Back
-C23      4u7              VS_SM0805           3.8200    -3.5300       0.0    Back
-C24      100n             VS_SM0603           3.8200    -3.3400       0.0    Back
-C26      100n             VS_SM0603           3.8200    -3.0700       0.0    Back
-C32      1u               VS_SM0603           3.3900    -3.6300     270.0    Back
-C34      100n             VS_SM0603           3.3100    -3.6300     270.0    Back
-C36      100n             VS_SM0603           3.2300    -3.6300     270.0    Back
-C37      10n              VS_SM0603           3.4700    -3.6300     270.0    Back
-L3       BLM18AG601SN1D   VS_SM0805           3.5600    -3.6400      90.0    Back
-R1       2K2              VS_SM0603           3.5400    -2.2300     180.0    Back
-R2       1K               VS_SM0603           3.5400    -2.3300       0.0    Back
-R4       250K             VS_SM0603           3.7100    -2.5400       0.0    Back
-R9       10K7             VS_SM0603           3.5100    -2.7000      90.0    Back
-R10      110K             VS_SM0603           3.4200    -2.7000     270.0    Back
-R16      220              VS_SM0603           3.8200    -3.1700     180.0    Back
-R20      100K             VS_SM0603           3.8200    -3.4300     180.0    Back
-U1       TPS77801         VS_SO8E             3.7100    -2.7000     270.0    Back
+C1       4u7              VS_SM0805           3.7500    -4.3000       0.0    Back
+C6       NO               VS_SM0603           4.2200    -3.7800     270.0    Back
+C7       10u              VS_SM0805           4.2200    -3.4600      90.0    Back
+C8       NO               VS_SM0603           4.1200    -3.7800     270.0    Back
+C11      10u              VS_SM0805           3.7200    -3.6400     180.0    Back
+C16      4u7              VS_SM0805           3.5900    -4.1100     270.0    Back
+C20      10u              VS_SM0805           4.1600    -3.1300      90.0    Back
+C21      10u              VS_SM0805           3.9800    -3.1300     270.0    Back
+C23      4u7              VS_SM0805           2.9200    -4.2200     270.0    Back
+C24      100n             VS_SM0603           3.1100    -4.2200     270.0    Back
+C26      100n             VS_SM0603           3.3800    -4.2200     270.0    Back
+C32      1u               VS_SM0603           2.8200    -3.7900     180.0    Back
+C34      100n             VS_SM0603           2.8200    -3.7100     180.0    Back
+C36      100n             VS_SM0603           2.8200    -3.6300     180.0    Back
+C37      10n              VS_SM0603           2.8200    -3.8700     180.0    Back
+L3       BLM18AG601SN1D   VS_SM0805           2.8100    -3.9600       0.0    Back
+R1       2K2              VS_SM0603           4.2200    -3.9400      90.0    Back
+R2       1K               VS_SM0603           4.1200    -3.9400     270.0    Back
+R4       250K             VS_SM0603           3.9100    -4.1100     270.0    Back
+R9       10K7             VS_SM0603           3.7500    -3.9100       0.0    Back
+R10      110K             VS_SM0603           3.7500    -3.8200     180.0    Back
+R16      220              VS_SM0603           3.2800    -4.2200      90.0    Back
+R20      100K             VS_SM0603           3.0200    -4.2200      90.0    Back
+U1       TPS77801         VS_SO8E             3.7500    -4.1100     180.0    Back
 ## End

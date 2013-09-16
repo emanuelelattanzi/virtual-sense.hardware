@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 10 Sep 2013 12:05:05 PM CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 16 Sep 2013 05:01:46 PM CEST
 
 BeginCmp
 TimeStamp = /521DB209;
@@ -260,15 +260,15 @@ IdModule  = VS_SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FC4A1C0;
-Reference = CONN1;
+TimeStamp = /5236FEAC;
+Reference = CONN2;
 ValeurCmp = CONN_14;
 IdModule  = SIL-14f1d1.5_double;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FC4A2FF;
-Reference = CONN3;
+TimeStamp = /5236FE9A;
+Reference = CONN4;
 ValeurCmp = CONN_14;
 IdModule  = SIL-14f1d1.5_double;
 EndCmp
@@ -278,13 +278,6 @@ TimeStamp = /521C719B/521E26E0;
 Reference = D1;
 ValeurCmp = LED;
 IdModule  = VS_SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /521E70EB;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -312,7 +305,7 @@ BeginCmp
 TimeStamp = /521E710A;
 Reference = M1;
 ValeurCmp = MIC;
-IdModule  = MIC_AOM-4540P-R;
+IdModule  = MIC_AOM-4540P-R_EDGE;
 EndCmp
 
 BeginCmp
@@ -360,7 +353,7 @@ EndCmp
 BeginCmp
 TimeStamp = /512F7BFC;
 Reference = P7;
-ValeurCmp = uC;
+ValeurCmp = DSP;
 IdModule  = front_vsoh_logo;
 EndCmp
 
