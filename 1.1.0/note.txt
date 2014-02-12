@@ -32,3 +32,5 @@ TODO:
 - Per comodità inserire in un unico componente le etichette dei pin delle porte
 - Provare a sbrogliare con le nuove porte doppie per vedere se i collegamenti tra porte doppie vengono genereati
 
+15-nov-2013: Trovare una soluzione per rimuovere transistor su Barometro e sensore di Luminosità (problema accuratezza luce misurata e bus I2C instabile con transistor)
+

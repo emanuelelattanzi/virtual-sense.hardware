@@ -1,0 +1,34 @@
+Su tutti i layer:
+- Creato un unico componente per ogni porta con riquadratura sul silk anche sul back
+- aggiunte etichette pin porte sul back di ogni layer eccetto per il battery che sono sul front
+- aggiunto arco su silk per distingure il verso di montaggio in angolo a destra della CONN3
+- Cambiato il nome delle etichette dei collegamenti per evidenziare il pin MCU corrispondente
+- Su suggerimento di Filippo rimosse le serigrafie dei footprint che stavano troppo vicine alle piazzole 
+
+MCU:
+- RTC enable su P3.6 (nella versione precedente era sconnesso)
+- Footprint eeprom U2 (1025) allargato
+- Footprint eeprom U4 allargato
+- Controllato footprint quarzo
+
+BATTERY:
+- Eliminata pista adc per campionare il livello delle batterie
+- Cambiato disposizione dei componenti: porte nel front, alloggiamenti batterie e switch nel back
+
+PROGDEBUG:
+- Allargato footprint PCA9548
+- Cambiato porta USB da mini a micro
+- Rimpicciolito silk footprint switch per non coprire l'etichetta CONN3
+
+RADIO:
+- Spostato ADC del sensore di luminosità dal ADC1 allo ADC0
+- Cambiati i LED 1, 2, 3 per farli funzionare sia a 2V che a 3V (scelti led verdi)
+- Ridotte le resistenze dei LED da 700ohm a 200ohm
+
+
+
+TODO:
+
+- Per comodità inserire in un unico componente le etichette dei pin delle porte
+- Provare a sbrogliare con le nuove porte doppie per vedere se i collegamenti tra porte doppie vengono genereati
+
