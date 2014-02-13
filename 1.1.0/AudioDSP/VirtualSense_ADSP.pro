@@ -1,4 +1,4 @@
-update=Thu 09 Jan 2014 03:47:47 PM CET
+update=Wed 12 Feb 2014 08:10:05 PM CET
 version=1
 last_client=eeschema
 [general]
@@ -84,3 +84,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=VirtualSense
 LibName32=VirtualSenseB
+LibName33=VirtualSenseCoffeeNugget
